@@ -35,5 +35,6 @@
 - 파이프라인 방식
 - 타이머 하나(GO-Back N) 
   차이점: 그거에 해당하는 세그먼트만 재전송
-  
+- 기다렸다가 ACK해라
+- Fast retransmit: time out이 되기전에 미리 loss난 것을 보내는 것
 ![alt text](image-1.png)
